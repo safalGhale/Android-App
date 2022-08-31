@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53466545538",
+    "project_id": "tapaikobotanyapplication",
+    "storage_bucket": "tapaikobotanyapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53466545538:android:84dc80e5b25f6a548d239b",
+        "android_client_info": {
+          "package_name": "com.example.finalyearproject.tapaikobotanyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53466545538-0t15k5u16s4e3gerg07h0qaol72q623i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIrpydlzBg7o1otLOf2nbECfU8nb8whJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53466545538-0t15k5u16s4e3gerg07h0qaol72q623i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

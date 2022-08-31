@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TapaikoBotanyApplication</string>
+
+
+    <string name="Underline"><b><u>Register</u></b></string>
+    <string name="Underline1"><b><u>Forget Password</u></b></string>
+    <string name="noacc">Dont have a Account?</string>
+    <string name="forgetp">Forget Your Password</string>
+    <string name="change">Send Password changing mail</string>
+    <string name="logoname">Tapaiko Botany</string>
+    <string name="logodesc">Buy Plants Online</string>
+    <string name="signuphead">Welcome</string>
+    <string name="signupdesc">Sign up to get started with Tapaiko Botany.</string>
+    <string name="loginhead">Hello !</string>
+    <string name="loginhead1">Welcome Back</string>
+    <string name="logindesc">Login to search and know about plants.</string>
+    <string name="getstarted">Lets Get Started</string>
+    <string name="Skip"><u>SKIP</u></string>
+    <string name="verifynum">Verify Phone Number</string>
+    <string name="verifynumdecs">Enter verification code if not automatically authenticated</string>
+    <string name="verify">Enter OTP</string>
+    <string name="Verifybtnname">Verify</string>
+
+
+    <!--Strings for boarding screen-->
+
+    <!--Titles-->
+    <string name="first_silde_title">Capture Image For Searching</string>
+    <string name="sec_silde_title">Search For Specific Plant</string>
+    <string name="third_silde_title">Buy Plants</string>
+    <string name="forth_silde_title">Know About Differtnt Plants</string>
+
+    <!--Title Descriptions-->
+    <string name="capture_description">You can capture the images of the plant you are curious about.
+        It will provide you with matching results of the plant.</string>
+
+    <string name="image_search_description">You can search the image by uploading different plant images.
+        And you can get information on the plant you are curious about.</string>
+
+    <string name="buy_plant_description">After knowing the information of the plant you can directly buy the plant on the e-commerce section.</string>
+
+    <string name="know_plant_description">You can enhance your knowledge on plants and can be an expert on plants buy using this app.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

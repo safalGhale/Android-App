@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingBottom="15dp"
+    android:orientation="vertical"
+    android:background="@color/back">
+
+    <TextView
+        android:id="@+id/my_cart_product"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/grey_font"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:text="My Cart"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/TotalPrice_cart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Total Price :Rs 450"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/amethysta"
+        app:layout_constraintTop_toBottomOf="@+id/my_cart_product"
+        app:layout_constraintWidth_percent=".9" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycler"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TotalPrice_cart"
+        android:paddingTop="10dp"
+        tools:listitem="@layout/my_cart_item"/>
+
+    <Button
+        app:layout_constraintVertical_bias="0.95"
+        android:id="@+id/buy_now_cart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/Orange"
+        android:drawableLeft="@drawable/add_to_cart_commercial_symbol"
+        android:drawableTint="@color/white"
+        android:padding="14dp"
+        android:text="Buy Now"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent=".8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
